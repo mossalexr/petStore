@@ -3,15 +3,17 @@
     height: auto;
     border-radius: 50%;
     box-shadow: 5px 5px 15px black;
+    background: transparent;
 }
 
-.home-img2 {
+/* .home-img2 {
     width: 100%;
     height: auto;
     border-radius: .375rem;
     margin-top: 5px;
     box-shadow: 5px 5px 15px black;
-}
+    background: transparent;
+} */
 
 .align {
     align-items: center;
@@ -58,7 +60,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: blue;
+    background-color: rgb(112, 112, 243);
 }
 
 .hero {
@@ -165,7 +167,6 @@ button {
 h3 {
     text-decoration: underline;
     text-decoration-color: black;
-    font-size: 38px;
 }
 
 body {
@@ -176,6 +177,8 @@ body {
 
 .card {
     background-image: linear-gradient(rgb(203, 222, 243), rgb(183, 161, 255));
+    text-align: center;
+    padding: 5px;
 }
 
 .card3 {
@@ -196,4 +199,10 @@ body {
     height: auto;
     border-radius: .375rem;
     margin-top: 5px;
+}
+#market {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-flow: wrap;
 }
